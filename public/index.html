@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Are you ready to begin?</h1>
+    <a href="/first-word"><button>Begin</button></a>
+    <form action="/second-word" method="POST"><br/>
+        <label for="noun">Noun</label>
+        <input 
+        type="text"
+        id="noun"
+        name="noun"
+        placeholder="Enter noun"
+        required
+        />
+        <br/>
+        <button id="first-word" type="submit">Next</button>
+    </form>
+    <form action="/third-word" method="POST"><br/>
+        <label for="adjective">Adjective</label>
+        <input 
+        type="text"
+        id="adjective"
+        name="adjective"
+        placeholder="Enter adjective"
+        required
+        />
+        <br/>
+        <button id="second-word" type="submit">Next</button>
+    </form>
+    <form action="/fourth-word" method="POST"><br/>
+        <label for="verb">Verb</label>
+        <input 
+        type="text"
+        id="verb"
+        name="verb"
+        placeholder="Enter verb"
+        required
+        />
+        <br/>
+        <button id="third-word" type="submit">Next</button>
+    </form>
+    <form action="/fifth-word" method="POST"><br/>
+        <label for="noun2">Noun</label>
+        <input 
+        type="text"
+        id="noun"
+        name="noun"
+        placeholder="Enter noun"
+        required
+        />
+        <br/>
+        <button id="fourth-word" type="submit">Next</button>
+    </form>
+        <form action="/done" method="POST"><br/>
+        <label for="adjective2">Adjective</label>
+        <input 
+        type="text"
+        id="adjective2"
+        name="adjective2"
+        placeholder="Enter adjective"
+        required
+        />
+        <br/>
+        <button id="fifth-word" type="submit">Done</button>
+</body>
+</html>
